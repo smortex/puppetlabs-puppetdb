@@ -1,5 +1,3 @@
-require 'beaker-puppet'
-require 'beaker-pe'
 require 'spec_helper_acceptance'
 
 describe 'basic tests:' do
