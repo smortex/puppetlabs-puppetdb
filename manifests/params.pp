@@ -32,7 +32,7 @@ class puppetdb::params inherits puppetdb::globals {
   }
 
   $puppetdb_major_version = $puppetdb_version ? {
-    'latest'  => '7',
+    'latest'  => '8',
     'present' => '7',
     default   => $puppetdb_version.split('.')[0],
   }
